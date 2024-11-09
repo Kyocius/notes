@@ -22,7 +22,7 @@ theme:
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: indigo
-      accent: pink
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to light mode
