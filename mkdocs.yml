@@ -1,0 +1,42 @@
+site_name: 笔记们
+site_description: Kyocius 的自救笔记
+copyright: All rights reserved <a href="https://github.com/Kyocius">Kyocius</a>.
+site_author: Kyocius
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: indigo  # 设置主色调
+    accent: pink     # 设置强调色
+  # 启用系统偏好颜色方案
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
