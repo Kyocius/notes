@@ -4,6 +4,7 @@ site_url: https://kyocius.github.io/notes/
 copyright: All rights reserved <a href="https://github.com/Kyocius">Kyocius</a>.
 site_author: Kyocius
 
+
 theme:
   name: material
   language: zh
