@@ -18,14 +18,17 @@ theme:
       accent: pink
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
+        name: 切换至深色模式
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: indigo
       accent: blue
       toggle:
         icon: material/weather-night
-        name: Switch to light mode
+        name: 切换至浅色模式
+  features:
+      - content.code.copy
+      - content.tooltips
 
 
 markdown_extensions:
