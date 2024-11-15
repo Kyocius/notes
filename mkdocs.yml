@@ -32,6 +32,8 @@ theme:
 
 
 markdown_extensions:
+  - markdown.extensions.tables
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
   - toc:
