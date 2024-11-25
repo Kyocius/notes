@@ -34,6 +34,7 @@ theme:
 markdown_extensions:
   - markdown.extensions.tables
   - pymdownx.superfences
+  - attr_list
   - pymdownx.arithmatex:
       generic: true
   - toc:
