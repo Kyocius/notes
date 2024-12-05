@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="61" y1="320" x2="571" y2="320"/>
+		<g>
+			<polygon points="559.369,325.939 558.686,324.059 570.996,319.578 558.686,315.098 559.369,313.219 576.843,319.578 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="319" y1="578" x2="319" y2="67"/>
+		<g>
+			<polygon points="325.283,79.132 323.402,79.815 318.921,67.505 314.441,79.815 312.562,79.132 318.921,61.658 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" x1="136.543" y1="500.408" x2="497.303" y2="139.648"/>
+		<g>
+			<polygon points="493.441,152.506 491.628,151.659 497.165,139.786 485.292,145.323 484.446,143.511 501.299,135.652 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 584.5879 330.4229)" font-family="'cmmi10'" font-size="46.4723">x</text>
+<text transform="matrix(1 0 0 1 507.4971 129.0435)" font-family="'cmmi10'" font-size="46.4723">y</text>
+<text transform="matrix(1 0 0 1 308.853 53.1382)" font-family="'cmmi10'" font-size="46.4723">z</text>
+<g>
+	<line fill="#3FA9F5" x1="171" y1="320" x2="687" y2="320"/>
+	<g>
+		<line fill="none" stroke="#3FA9F5" stroke-width="4" stroke-miterlimit="10" x1="171" y1="320" x2="681" y2="320"/>
+		<g>
+			<polygon fill="#3FA9F5" points="669.353,325.939 668.669,324.059 680.979,319.578 668.669,315.098 669.353,313.219 
+				686.826,319.578 			"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line fill="#3FA9F5" x1="429" y1="578" x2="429" y2="62"/>
+	<g>
+		<line fill="none" stroke="#3FA9F5" stroke-width="4" stroke-miterlimit="10" x1="429" y1="578" x2="429" y2="67"/>
+		<g>
+			<polygon fill="#3FA9F5" points="435.267,79.132 433.386,79.815 428.905,67.505 424.425,79.815 422.546,79.132 428.905,61.658 			
+				"/>
+		</g>
+	</g>
+</g>
+<g>
+	<line fill="#3FA9F5" x1="246.527" y1="500.408" x2="611.283" y2="135.652"/>
+	<g>
+		
+			<line fill="none" stroke="#3FA9F5" stroke-width="4" stroke-miterlimit="10" x1="246.527" y1="500.408" x2="607.287" y2="139.648"/>
+		<g>
+			<polygon fill="#3FA9F5" points="603.426,152.506 601.612,151.659 607.149,139.786 595.276,145.323 594.431,143.511 
+				611.283,135.652 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 694.5723 330.4229)"><tspan x="0" y="0" fill="#3FA9F5" font-family="'cmmi10'" font-size="46.4723">x</tspan><tspan x="26.582" y="0" fill="#3FA9F5" font-family="'MyriadPro-Regular'" font-size="46.4723">’</tspan></text>
+<text transform="matrix(1 0 0 1 617.4805 129.0435)"><tspan x="0" y="0" fill="#3FA9F5" font-family="'cmmi10'" font-size="46.4723">y</tspan><tspan x="22.771" y="0" fill="#3FA9F5" font-family="'MyriadPro-Regular'" font-size="46.4723">’</tspan></text>
+<text transform="matrix(1 0 0 1 418.8359 53.1382)"><tspan x="0" y="0" fill="#3FA9F5" font-family="'cmmi10'" font-size="46.4723">z</tspan><tspan x="21.61" y="0" fill="#3FA9F5" font-family="'MyriadPro-Regular'" font-size="46.4723">’</tspan></text>
+<g>
+	<g>
+		<line fill="none" stroke="#FF1D25" stroke-width="8" stroke-miterlimit="10" x1="428" y1="320" x2="488" y2="320"/>
+		<g>
+			<polygon fill="#FF1D25" points="481.418,328.466 485.194,319.578 481.418,310.69 502.486,319.578 			"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 443.623 359.8555)" fill="#FF1D25" font-family="'cmmi10'" font-size="46.4723">v</text>
+<text transform="matrix(1 0 0 1 437.4268 432.6611)"><tspan x="0" y="0" font-family="'cmmi10'" font-size="37.1778">t</tspan><tspan x="13.421" y="0" font-family="'MyriadPro-Regular'" font-size="37.1778">=</tspan><tspan x="35.579" y="0" font-family="'cmmi10'" font-size="37.1778">t</tspan><tspan x="48.999" y="0" font-family="'MyriadPro-Regular'" font-size="37.1778">’=</tspan><tspan x="78.853" y="0" font-family="'TimesNewRomanPSMT'" font-size="37.1778">0 </tspan><tspan x="106.735" y="0" font-family="'STHeitiTC-Light'" font-size="37.1778">時原點重合</tspan></text>
+</svg>
