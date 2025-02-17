@@ -7,24 +7,21 @@ site_author: Kyocius
 theme:
   name: material
   language: zh
-  palette:
-    primary: indigo  # 设置主色调
-    accent: pink     # 设置强调色
-  # 启用系统偏好颜色方案
+
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
-      primary: indigo
-      accent: pink
+      primary: brown
+      accent: amber
       toggle:
-        icon: material/weather-sunny
+        icon: material/theme-light-dark
         name: 切换至深色模式
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
-      primary: indigo
-      accent: blue
+      primary: black
+      accent: light blue
       toggle:
-        icon: material/weather-night
+        icon: material/theme-light-dark
         name: 切换至浅色模式
   features:
       - content.code.copy
