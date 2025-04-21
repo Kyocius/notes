@@ -63,8 +63,8 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.arithmatex:
       generic: true
-  # - toc:
-  #     toc_depth: 3
+  - toc:
+      toc_depth: 3
 
 extra_javascript:
   - js/katex.js
