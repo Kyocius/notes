@@ -1,4 +1,0 @@
-## Measurements of probabilistic state
-
-
-
