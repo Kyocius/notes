@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Kyocius <kyocius@outlook.com>"]
+channels = ["conda-forge"]
+name = "src"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+start = "mkdocs serve"
+
+[dependencies]
+mkdocs = ">=1.6.1,<2"
+mkdocs-material = ">=9.6.14,<10"
+mkdocs-material-extensions = ">=1.3.1,<2"
