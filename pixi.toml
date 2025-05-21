@@ -1,7 +1,7 @@
 [workspace]
 authors = ["Kyocius <kyocius@outlook.com>"]
 channels = ["conda-forge"]
-name = "src"
+name = "mkdocs"
 platforms = ["win-64"]
 version = "0.1.0"
 
