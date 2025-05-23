@@ -1,0 +1,67 @@
+/* -- TOC Numbering -- */
+
+/* 1. 初始化 TOC 计数器 */
+.md-nav--secondary .md-nav__list {
+    counter-reset: toc-level-2;
+    /* 为二级标题初始化计数器 */
+}
+
+.md-nav--secondary .md-nav__item .md-nav__list {
+    counter-reset: toc-level-3;
+    /* 为三级标题初始化计数器 */
+}
+
+.md-nav--secondary .md-nav__item .md-nav__item .md-nav__list {
+    counter-reset: toc-level-4;
+    /* 为四级标题初始化计数器 */
+}
+
+/* 2. 为 TOC 项目添加编号 */
+
+/* 二级标题 */
+.md-nav--secondary>.md-nav__list>.md-nav__item>.md-nav__link::before {
+    counter-increment: toc-level-2;
+    /* 增加二级计数器 */
+    content: counter(toc-level-2) ". ";
+    /* 显示 "1. " */
+    font-weight: bold;
+    /* 可选：加粗编号 */
+    margin-right: 0.2em;
+    /* 可选：增加编号和标题间的间距 */
+}
+
+/* 三级标题 */
+.md-nav--secondary .md-nav__item .md-nav__item>.md-nav__link::before {
+    counter-increment: toc-level-3;
+    /* 增加三级计数器 */
+    content: counter(toc-level-2) "." counter(toc-level-3) ". ";
+    /* 显示 "1.1. " */
+    margin-right: 0.2em;
+}
+
+/* 四级标题 */
+.md-nav--secondary .md-nav__item .md-nav__item .md-nav__item>.md-nav__link::before {
+    counter-increment: toc-level-4;
+    /* 增加四级计数器 */
+    content: counter(toc-level-2) "." counter(toc-level-3) "." counter(toc-level-4) ". ";
+    /* 显示 "1.1.1. " */
+    margin-right: 0.2em;
+}
+
+/* 3. 可选：调整缩进以适应编号 */
+.md-nav--secondary .md-nav__link {
+    display: inline-block;
+    /* 确保 :before 伪元素能正常工作 */
+}
+
+.md-nav--secondary .md-nav__item .md-nav__link {
+    padding-left: 0.5rem;
+    /* 调整非一级 TOC 的缩进 */
+}
+
+.md-nav--secondary .md-nav__item .md-nav__item .md-nav__link {
+    padding-left: 1.0rem;
+    /* 调整更深层级的缩进 */
+}
+
+/* ... 可以根据需要为更多层级添加样式 ... */

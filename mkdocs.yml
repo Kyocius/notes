@@ -78,6 +78,7 @@ extra_javascript:
 extra_css:
   - css/custom.css
   - css/headings.css
+  - css/toc_numbering.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
     
